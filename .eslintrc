@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2021, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module" // Allows for the use of imports
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "eqeqeq": 2,
+    "no-console": [
+      "warn"
+    ],
+    "no-magic-numbers": [
+      "warn",
+      {
+        "ignoreArrayIndexes": true
+      }
+    ],
+    "no-var": 2,
+    "no-duplicate-imports": 1,
+    "prefer-arrow-callback": 1,
+    "prefer-const": 1,
+    "prefer-destructuring": 1,
+    "prefer-numeric-literals": 1,
+    "linebreak-style": 0,
+    "@typescript-eslint/no-empty-function": 0
+  }
+}
