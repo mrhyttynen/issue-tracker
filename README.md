@@ -12,7 +12,7 @@ The issue tracker allows creation, viewing and deletion of issues. You can view 
 - install node v22.18.0
 - install yarn v1.22.19
 - in repo root:
-    - run `yarn install`
+    - run `yarn install` to install required NPM packages
     - run `yarn start-backend` to create the database and required tables, and to start the backend
     - open a new terminal and run `yarn start-frontend` to start frontend and test the app
 
