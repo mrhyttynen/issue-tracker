@@ -5,6 +5,7 @@ This is an issue tracker POC created using Express.js, Typescript, React.js and 
 
 The issue tracker allows creation, viewing and deletion of issues. You can view all issues or issues assigned to a specific user. Configured users hardcoded in the backend database are `a@user.com`, `b@user.com`, and `c@user.com`, and these are the only valid Assignee Emails. After creating an issue, you need to click Get All Issues or Get Issues For User to see them.
 
+![user interface](issue-tracker-ui.png)
 ![architecture diagram](architecture.png)
 
 ## Running instructions:
@@ -21,6 +22,7 @@ The issue tracker allows creation, viewing and deletion of issues. You can view 
     - The UI should display an error message when one is returned from the backend, e.g. due to invalid user or empty required field values
     - submission of a new issue should refresh the issue list
     - clicking the Delete button on a row should remove that row from the table without needing to refresh the issuelist
+    - form should clear after creating a new issue
     - implement creation of new users
     - implement issue editing functionality eg description or comments
     - implement authentication / login
